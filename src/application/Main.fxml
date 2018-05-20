@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <AnchorPane layoutX="6.0" prefHeight="2000.0" prefWidth="1500.0" style="-fx-background-color: white;">
+         <children>
+            <Pane prefHeight="164.0" prefWidth="1511.0" style="-fx-background-color: green;">
+               <children>
+                  <Text fill="#f2f2f2" layoutX="340.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ACADESH SKILLS PIPELINE" wrappingWidth="586.13671875">
+                     <font>
+                        <Font size="42.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="486.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name Shuffle" wrappingWidth="189.13671875">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Text fill="#07461d" layoutX="198.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Group A">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <Text fill="#07461d" layoutX="495.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Group B" wrappingWidth="106.75634765625">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <Text fill="#07461d" layoutX="780.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Group C" wrappingWidth="106.75635498762131">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <Text fill="#07461d" layoutX="194.0" layoutY="643.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Group D" wrappingWidth="106.75635498762131">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <Text fill="#07461d" layoutX="499.0" layoutY="643.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Group E">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <Text fill="#07461d" layoutX="784.0" layoutY="643.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Group F">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <Label fx:id="lblNumber1" layoutX="198.0" layoutY="488.0" prefHeight="32.0" prefWidth="180.0" textFill="#011b0a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNumber2" layoutX="197.0" layoutY="527.0" prefHeight="32.0" prefWidth="180.0" textFill="#011b0a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNumber3" layoutX="197.0" layoutY="565.0" prefHeight="32.0" prefWidth="180.0" textFill="#011b0a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNumber4" layoutX="495.0" layoutY="481.0" prefHeight="32.0" prefWidth="180.0" textFill="#011b0a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNumber5" layoutX="495.0" layoutY="520.0" prefHeight="32.0" prefWidth="180.0" textFill="#011b0a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNumber6" layoutX="495.0" layoutY="559.0" prefHeight="32.0" prefWidth="180.0" textFill="#011b0a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNumber7" layoutX="789.0" layoutY="481.0" prefHeight="32.0" prefWidth="180.0" textFill="#011b0a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNumber8" layoutX="789.0" layoutY="520.0" prefHeight="32.0" prefWidth="180.0" textFill="#011b0a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNumber9" layoutX="789.0" layoutY="559.0" prefHeight="32.0" prefWidth="180.0" textFill="#011b0a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNumber10" layoutX="194.0" layoutY="667.0" prefHeight="32.0" prefWidth="180.0" textFill="#011b0a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNumber11" layoutX="194.0" layoutY="699.0" prefHeight="32.0" prefWidth="180.0" textFill="#011b0a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNumber12" layoutX="193.0" layoutY="734.0" prefHeight="32.0" prefWidth="180.0" textFill="#011b0a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNumber13" layoutX="496.0" layoutY="666.0" prefHeight="32.0" prefWidth="180.0" textFill="#011b0a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNumber14" layoutX="496.0" layoutY="698.0" prefHeight="32.0" prefWidth="180.0" textFill="#011b0a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNumber15" layoutX="495.0" layoutY="733.0" prefHeight="32.0" prefWidth="180.0" textFill="#011b0a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNumber16" layoutX="790.0" layoutY="665.0" prefHeight="32.0" prefWidth="180.0" textFill="#011b0a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNumber17" layoutX="790.0" layoutY="697.0" prefHeight="32.0" prefWidth="180.0" textFill="#011b0a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNumber18" layoutX="789.0" layoutY="732.0" prefHeight="32.0" prefWidth="180.0" textFill="#011b0a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="btnLoadName" layoutX="254.0" layoutY="291.0" onAction="#btnLoadName" style="-fx-background-color: green;" text="Load Names" textFill="#e5ebe7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnClearNames" layoutX="789.0" layoutY="291.0" onAction="#btnClearNames" style="-fx-background-color: green;" text="Clear Names" textFill="#e5ebe7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnShuffle" layoutX="507.0" layoutY="794.0" onAction="#btnShuffle" style="-fx-background-color: green;" text="Shuffle" textFill="#e5ebe7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXTextArea fx:id="textArea" layoutX="383.0" layoutY="229.0" prefHeight="185.0" prefWidth="401.0">
+               <font>
+                  <Font size="20.0" />
+               </font></JFXTextArea>
+            <JFXTextField fx:id="txtNames" alignment="TOP_CENTER" focusColor="#8a3229" labelFloat="true" layoutX="468.0" layoutY="191.0" prefHeight="25.0" prefWidth="253.0" promptText="Load Names" unFocusColor="#0ebc2e">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
